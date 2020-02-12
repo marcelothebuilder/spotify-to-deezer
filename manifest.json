@@ -1,0 +1,28 @@
+{
+
+  "manifest_version": 2,
+  "name": "Spotify to Deezer",
+  "version": "1.0",
+
+  "description": "Open Spotify links in deezer",
+
+  "icons": {
+    "400": "icons/spot-x-deezer-400x400.png",
+    "48": "icons/spot-x-deezer-48x48.png"
+  },
+  "permissions": [
+    "notifications",
+    "contextMenus",
+    "https://open.spotify.com/",
+    "https://api.deezer.com/"
+  ],
+  "background": {
+    "scripts": ["background-script.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"]
+    }
+  ]
+
+}

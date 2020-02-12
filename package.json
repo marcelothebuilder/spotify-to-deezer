@@ -1,0 +1,22 @@
+{
+  "name": "spotify-to-deezer",
+  "version": "1.0.0",
+  "description": "Firefox extension",
+  "main": "index.js",
+  "author": "Marcelo Paixão Resende",
+  "license": "GPLv3",
+  "scripts": {
+    "start": "web-ext run",
+    "run": "web-ext run",
+    "lint": "web-ext lint",
+    "sign": "web-ext sign",
+    "build": "web-ext build"
+  },
+  "devDependencies": {
+    "web-ext": "^4.0.0"
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "readme-md-generator": "^1.0.0"
+  }
+}
