@@ -11,17 +11,38 @@
 
 > Open Spotify shared links (albums, artists, tracks and playlists) in Deezer. Right click Spotify links and select "Open in deezer". Example of Spotify link: https://open.spotify.com/track/10lT3pp9QERGOWiIzLx4We
 
-## Install
+
+## Requirements
+
+* Nodejs v12 (https://nodejs.org/en/)
+* Yarn (https://yarnpkg.com/)
+
+## Developing
+
+This will build the unpacked extension inside dist folder.
 
 ```sh
 yarn install
 ```
 
-## Usage
+```sh
+yarn dev
+```
+
+## Building zip file
+
+This will build the extension zip file inside web-ext-artifacts folder.
 
 ```sh
-yarn run start
+yarn build
 ```
+
+This will build the extension zip file inside web-ext-artifacts folder, but minified and ready for production.
+
+```sh
+yarn build:production
+```
+
 
 ## Run tests
 
