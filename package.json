@@ -6,15 +6,17 @@
   "author": "Marcelo Paixão Resende",
   "license": "GPLv3",
   "scripts": {
-    "start": "webpack && web-ext run",
-    "run": "webpack && web-ext run",
-    "lint": "web-ext lint",
-    "sign": "webpack && web-ext sign",
+    "start": "webpack && web-ext --source-dir dist run",
+    "run": "webpack && web-ext --source-dir dist run",
+    "lint": "web-ext --source-dir dist lint",
+    "sign": "webpack && web-ext --source-dir dist sign",
     "dev": "webpack --watch",
-    "build": "webpack && web-ext build --overwrite-dest"
+    "build": "webpack && web-ext --source-dir dist build --overwrite-dest",
+    "build:production": "webpack --mode=production && web-ext --source-dir dist build --overwrite-dest"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
     "web-ext": "^4.0.0",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"

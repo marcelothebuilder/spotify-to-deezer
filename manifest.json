@@ -17,7 +17,7 @@
     "https://api.deezer.com/"
   ],
   "background": {
-    "scripts": ["dist/main.js"]
+    "scripts": ["main.js"]
   },
   "content_scripts": [
     {

@@ -1,5 +1,7 @@
 const path = require('path');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const CopyPlugin = require('copy-webpack-plugin');
+
 
 module.exports = {
     entry: './src/index.js',
@@ -10,6 +12,10 @@ module.exports = {
     },
     mode: 'development',
     plugins: [
-        new CleanWebpackPlugin()
+        new CleanWebpackPlugin(),
+        new CopyPlugin([
+            { from: 'icons', to: 'icons' },
+            { from: 'manifest.json', to: 'manifest.json' },
+        ]),
     ]
 };
