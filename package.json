@@ -12,7 +12,8 @@
     "sign": "webpack && web-ext --source-dir dist sign",
     "dev": "webpack --watch",
     "build": "webpack && web-ext --source-dir dist build --overwrite-dest",
-    "build:production": "webpack --mode=production && web-ext --source-dir dist build --overwrite-dest"
+    "build:production": "webpack --mode=production && web-ext --source-dir dist build --overwrite-dest",
+    "zip": "git archive -o source.zip HEAD"
   },
   "devDependencies": {
     "clean-webpack-plugin": "^3.0.0",
