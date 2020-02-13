@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Spotify to Deezer",
-  "version": "1.0",
+  "version": "1.1",
 
   "description": "Open Spotify links in deezer",
 
@@ -17,7 +17,7 @@
     "https://api.deezer.com/"
   ],
   "background": {
-    "scripts": ["background-script.js"]
+    "scripts": ["dist/main.js"]
   },
   "content_scripts": [
     {
