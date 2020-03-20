@@ -13,7 +13,7 @@ module.exports = {
   mode: 'development',
   plugins: [
     new CleanWebpackPlugin({
-        cleanStaleWebpackAssets: false,
+      cleanStaleWebpackAssets: false,
     }),
     new CopyPlugin([
       { from: 'icons', to: 'icons' },
