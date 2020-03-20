@@ -1,6 +1,6 @@
 {
   "name": "spotify-to-deezer",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Firefox extension",
   "main": "index.js",
   "author": "Marcelo Paixão Resende",
