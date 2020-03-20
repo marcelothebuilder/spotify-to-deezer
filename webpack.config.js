@@ -17,7 +17,8 @@ module.exports = {
     }),
     new CopyPlugin([
       { from: 'icons', to: 'icons' },
-      { from: 'manifest.json', to: 'manifest.json' },
+      { from: 'manifest.json', to: '.' },
+      { from: '.web-extension-id', to: '.' },
     ]),
   ],
 };
