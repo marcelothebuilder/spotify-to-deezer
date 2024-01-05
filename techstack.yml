@@ -1,7 +1,8 @@
 repo_name: marcelothebuilder/spotify-to-deezer
 report_id: 0f58e9b03210cd9de420db9459a7bfaf
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-10T19:54:21+00:00'
+timestamp: '2024-01-05T08:52:17+00:00'
 requested_by: marcelothebuilder
 provider: github
 branch: master
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/marcelothebuilder/spotify-to-deezer
   detection_source: Repo Metadata
 - name: ESLint
   description: The fully pluggable JavaScript code quality tool
@@ -26,6 +28,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Code Review
   image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/marcelothebuilder/spotify-to-deezer/blob/master/package.json
   detection_source: package.json
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2020-02-12 02:08:53.000000000 Z
@@ -37,6 +40,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/marcelothebuilder/spotify-to-deezer
   detection_source: Repo Metadata
 - name: Webpack
   description: A bundler for javascript and friends
@@ -48,8 +52,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: JS Build Tools / JS Task Runners
   image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
-  detection_source_url: yarn.lock
-  detection_source: webpack.config.js
+  detection_source_url: https://github.com/marcelothebuilder/spotify-to-deezer/blob/master/yarn.lock
+  detection_source: package.json
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2020-02-13 20:29:38.000000000 Z
 - name: Yarn
@@ -60,6 +64,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/marcelothebuilder/spotify-to-deezer/blob/master/yarn.lock
   detection_source: yarn.lock
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2020-02-12 02:08:53.000000000 Z
@@ -71,6 +76,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/marcelothebuilder/spotify-to-deezer/blob/master/package.json
   detection_source: package.json
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2020-02-12 02:08:53.000000000 Z
@@ -84,7 +90,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16068/default_d4e765f8a43dcfd232c8b9ee9732058bc27c727a.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/marcelothebuilder/spotify-to-deezer/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2020-03-20 14:38:44.000000000 Z
@@ -98,7 +104,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15941/default_b45165a5d30e541ab11711a34a78209b3e8ed7fd.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/marcelothebuilder/spotify-to-deezer/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2020-03-20 14:38:44.000000000 Z
@@ -112,7 +118,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15888/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/marcelothebuilder/spotify-to-deezer/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2020-03-20 14:38:44.000000000 Z
@@ -126,7 +132,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/marcelothebuilder/spotify-to-deezer/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2020-03-20 14:38:44.000000000 Z
@@ -140,7 +146,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16772/default_661bbd7f9556b6c5c0b8be11cd13e1813fc5c977.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/marcelothebuilder/spotify-to-deezer/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2020-02-12 02:08:53.000000000 Z
@@ -154,7 +160,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
-  detection_source_url: yarn.lock
+  detection_source_url: https://github.com/marcelothebuilder/spotify-to-deezer/blob/master/yarn.lock
   detection_source: package.json
   last_updated_by: Marcelo Paixão Resende
   last_updated_on: 2020-02-13 20:29:38.000000000 Z
